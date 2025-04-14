@@ -13,6 +13,8 @@
     <modules>
         <!-- These will be added once we create child modules -->
         <module>common</module>
+        <module>inventory-service</module>
+        <module>transaction-service</module>
     </modules>
 
     <properties>
