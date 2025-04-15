@@ -32,6 +32,9 @@ public class RouteConfiguration {
                 // Analytics Service Routes
                 .route("analytics-service", r -> r.path("/api/analytics/**")
                         .uri("http://localhost:8085"))
+                // Notification service Routes
+                .route("notification-service", r -> r.path("/api/notifications/**")
+                        .uri("http://localhost:8086"))
                 
                 .build();
     }
