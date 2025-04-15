@@ -17,6 +17,8 @@
         <module>transaction-service</module>
         <module>recipe-service</module>
         <module>auth-service</module>
+        <module>api-gateway</module>
+        <module>analytics-service</module>
     </modules>
 
     <properties>
